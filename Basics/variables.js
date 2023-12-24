@@ -6,7 +6,7 @@ AccountStatus = "open";
 let AccountIndustry;
 
 /*
-prefer not to use using var
+prefer not to use var in javascript
 Because of issue in Block Scope and Functional Scope
 */
 
@@ -15,5 +15,5 @@ Because of issue in Block Scope and Functional Scope
 console.table([AccountId,AccountName,AccountDescription, AccountIndustry]);
 
 /*
-    { } ---> this use to called scope in java.
+    { } ---> this use to called scope in javascript.
 */
